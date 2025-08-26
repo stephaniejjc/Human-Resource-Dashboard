@@ -15,7 +15,25 @@ The dashboard is built around a simulated dataset of ~8,000 employee records, in
 
 These aren’t just visuals; they’re structured to drive actions.
 
+## 🖼️ Dashboard Preview
+
 <img width="1400" height="802" alt="Screenshot for Dashboard" src="https://github.com/user-attachments/assets/36a8264b-033a-4545-b9de-1cc2f8f50a3a" />
+
+## 🔎Findings 
+
+**Pay dynamics shift with education**: Men earn more at lower education levels, but women out-earn men at advanced degrees, especially among PhDs (+$13K).
+
+**Role comparison reveals structural inequities**: HR managers average $82K at age 35, while financial analysts earn a compatable $86K despite being, on average, ten years older.
+
+**Education positively correlates with performance**:  60% of staff hold a bachelor’s degree. Higher education levels align with stronger reviews. The likelihood of receiving an “Excellent” rating rises with degree level — from just 12% among bachelor’s holders to nearly half of PhDs.
+
+**Education and salary variation**: Salary spread widens with higher education — advanced degrees come with both higher pay and greater dispersion in earnings.
+
+**Age–salary patterns differ by gender**: Men cluster into comparable salary bands within a narrow mid-career window (38–44), while women reach similar salary levels across a wider span and often later (38–48), pointing to differences in career progression timing.
+
+ **Age and workforce share**: Mid-career employees (35–44) dominate the staff at 30%, making this the pivotal age group for retention and succession planning.  60% of all staff hold bachelor’s degrees.
+
+**Workforce** is stable at 7,900+ employees, with hires (8.950) far outpacing terminations (966). Turnover patterns mirror department size, with Operations naturally highest. Gender balance is close (54% male, 46% female).
 
 
 ## 📊Features
@@ -43,22 +61,45 @@ These aren’t just visuals; they’re structured to drive actions.
 **Scatterplot Analysis**: Age vs. salary with managerial outliers
 
 
+## 👀 How to View the Dashboard
 
-## 🔎Findings 
+**1.Download or clone this repository**  
+   ```bash
+   git clone https://github.com/stephaniejjc/Human-Resource-Dashboard.git
+ ```
+**2.Open the dashboard file**
 
-**Pay dynamics shift with education**: Men earn more at lower education levels, but women out-earn men at advanced degrees, especially among PhDs (+$13K).
+Navigate to  ```/Tableau Files/ ``` 
 
-**Role comparison reveals structural inequities**: HR managers average $82K at age 35, while financial analysts earn a compatable $86K despite being, on average, ten years older.
+Open ```HR dashboard_SC.twbx``` with Tableau Desktop
 
-**Education positively correlates with performance**:  60% of staff hold a bachelor’s degree. Higher education levels align with stronger reviews. The likelihood of receiving an “Excellent” rating rises with degree level — from just 12% among bachelor’s holders to nearly half of PhDs.
+**3.Interact with the dashboard**
 
-**Education and salary variation**: Salary spread widens with higher education — advanced degrees come with both higher pay and greater dispersion in earnings.
+Apply filters by gender, hire status, location, or timeframe
 
-**Age–salary patterns differ by gender**: Men cluster into comparable salary bands within a narrow mid-career window (38–44), while women reach similar salary levels across a wider span and often later (38–48), pointing to differences in career progression timing.
+Hover over charts for detailed tooltips
 
- **Age and workforce share**: Mid-career employees (35–44) dominate the staff at 30%, making this the pivotal age group for retention and succession planning.  60% of all staff hold bachelor’s degrees.
+Export views to PDF or image for reporting
 
-**Workforce** is stable at 7,900+ employees, with hires (8.950) far outpacing terminations (966). Turnover patterns mirror department size, with Operations naturally highest. Gender balance is close (54% male, 46% female).
+## 📂 Project Structure  
+
+HR-Dashboard/  
+├── Dashboard Screenshot/        # Static images of the dashboard  
+│   └── Screenshot for Dashboard.png  
+│  
+├── Dataset/                     # Simulated dataset for analysis  
+│   └── HumanResources.csv  
+│  
+├── Mockup Drawing/               # Dashboard design mockups & container layout  
+│   ├── mockup_SC.drawio  
+│   └── mockup_SC.drawio.png  
+│  
+├── Tableau Files/               # Tableau packaged workbook for interactive use  
+│   └── HR Dashboard_SC.twbx  
+│  
+└── README.md                    # Project documentation  
+
+
 
 ## 📑 Data dictionary
 | Field               | Description                                      | Type              |
