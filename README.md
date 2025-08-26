@@ -15,6 +15,9 @@ The dashboard is built around a simulated dataset of ~8,000 employee records, in
 
 These aren’t just visuals; they’re structured to drive actions.
 
+<img width="1400" height="802" alt="Screenshot for Dashboard" src="https://github.com/user-attachments/assets/36a8264b-033a-4545-b9de-1cc2f8f50a3a" />
+
+
 ## 📊Features
 
 **Interactive filtering** → Users can click on charts to filter the entire dashboard dynamically. A collapsible filter panel allows customization by gender, hire status, location, and timeframe.
